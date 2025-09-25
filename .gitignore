@@ -1,1 +1,16 @@
 .env
+
+# Ignore logs
+logs/*.log
+
+# Ignore build directory
+build/
+
+# Ignore all .bak files anywhere
+**/*.bak
+
+# Ignore node_modules folder
+node_modules/
+
+# Ignore node_modules.txt file
+node_modules.txt
